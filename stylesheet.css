@@ -1,0 +1,151 @@
+/* ALLGEMEIN */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Poiret One;
+
+}
+
+.wrapper {
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto
+
+
+}
+
+/* NAVIGATION */
+
+#navigation {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+
+
+
+
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+
+    float:left;
+
+    margin: 10px;
+
+    background: url(image/logo1.png);
+    background-size: cover;
+
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin-top: 40px;
+}
+
+nav ul li{
+     display: inline-block;
+     margin-left: 30px;
+     list-style: none;
+
+
+}
+
+nav ul li a {
+    font-family: Poiret One, Arial, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.3s;
+
+
+}
+nav ul li a:hover {
+    color: aliceblue;
+
+
+}
+/*ANDERES MENÜ*/
+#menu {
+    float: right;
+    margin-top: 44;
+    margin-right: 30px;
+
+
+
+}
+
+#menu a {
+    padding-right: 30px;
+    padding-top: 35px;
+
+    text-decoration: none;
+    color: #ff6666;
+
+
+}
+
+#menu a:hover {
+    color: azure;
+}
+
+/*BANNER*/
+
+#container {
+    background: url(image/Carstian_Luyckx_-_Still_life_of_roses,_peonies_and_passion_flowers_in_a_glass_vase_on_a_stone_ledge_with_a_ladybird_and_a_butterfly.jpg);
+    width: 100%;
+    height: 100%
+    display: flex;
+    justify-content: center;
+
+
+
+    }
+
+#container h1 {
+    padding-top:400px;
+    text-align: center;
+    color: floralwhite;
+    font-size: 5em;
+    font-family: Pacifico;
+    font-weight: 100;
+
+
+}
+
+.box {
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+    height: 400px;
+    margin-top: 350px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 230, 0.5);
+    display: inline-block;
+    margin-left: 80px;
+    overflow: scroll;
+
+
+
+
+
+
+}
+
+.box p {
+    font-size: 14pt;
+
+    color: black;
+
+
+}
